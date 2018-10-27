@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search_hint"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:title="Clear Cache"
+        app:showAsAction="never"
+        android:id="@+id/menu_clear" />
+    <item
+        android:title="Log Out"
+        android:id="@+id/menu_logout"
+        app:showAsAction="never" />
+    <!--<item-->
+    <!--android:id="@+id/menu_add_img"-->
+    <!--android:title="Add Image"-->
+    <!--android:orderInCategory="101"-->
+    <!--android:icon="@drawable/ic_add_a_photo_black_24dp"-->
+    <!--app:showAsAction="always"-->
+    <!--/>-->
+</menu>

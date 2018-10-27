@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "459149526154",
+    "firebase_url": "https://wonderimage-c9199.firebaseio.com",
+    "project_id": "wonderimage-c9199",
+    "storage_bucket": "wonderimage-c9199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459149526154:android:64d1e1d83dd10640",
+        "android_client_info": {
+          "package_name": "com.newware.wonderimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459149526154-9pbibkpg9tf27vhuk72j6j4anqfkbfdh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newware.wonderimage",
+            "certificate_hash": "6b9a573cbc17cc36464ac740b71a29a555c02fb6"
+          }
+        },
+        {
+          "client_id": "459149526154-0vvkqthinmupvrjve8hhof56cb698leb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO74SRQQux72o83sGEe0ACCVlyejF9qfw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459149526154-0vvkqthinmupvrjve8hhof56cb698leb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

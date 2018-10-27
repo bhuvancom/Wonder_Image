@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/frame"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame1"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame2"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame7"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame10"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame12"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame13"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame15"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame18"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame26"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame1"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame18"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame12"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame26"
+        android:duration="90" />
+    <item
+        android:drawable="@drawable/frame"
+        android:duration="90" />
+</animation-list>

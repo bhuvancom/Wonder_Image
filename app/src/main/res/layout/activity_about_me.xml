@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:elevation="8dp"
+    tools:context=".AboutMe">
+
+    <ImageView
+        android:id="@+id/iv_me"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:elevation="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/me_0" />
+
+    <ScrollView
+        android:id="@+id/scroll_social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_me"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_pic"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_social"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/iv_social_fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Connect with me"
+                android:padding="8dp"
+                android:src="@drawable/fb_ico" />
+
+            <ImageView
+                android:id="@+id/iv_social_google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Connect with me"
+                android:padding="8dp"
+                android:src="@drawable/google_ico" />
+
+            <ImageView
+                android:id="@+id/iv_social_insta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Connect with me"
+                android:padding="8dp"
+                android:src="@drawable/insta_ico" />
+
+            <ImageView
+                android:id="@+id/iv_social_twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Connect with me"
+                android:padding="8dp"
+                android:src="@drawable/twitter_ico" />
+
+            <ImageView
+                android:id="@+id/iv_social_linked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Connect with me"
+                android:padding="8dp"
+                android:src="@drawable/linkedin_ico" />
+
+            <ImageView
+                android:id="@+id/iv_social_github"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Connect with me"
+                android:padding="8dp"
+                android:src="@drawable/github_ico" />
+
+            <ImageView
+                android:id="@+id/iv_social_blogger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Connect with me"
+                android:padding="8dp"
+                android:src="@drawable/blog_ico" />
+
+            <ImageView
+                android:id="@+id/iv_youtube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Connect with me"
+                android:padding="8dp"
+                android:src="@drawable/youtube_ico" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/scroll_social"
+        android:scrollbarSize="2dp"
+        android:scrollbarThumbVertical="@color/colorAccent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_Myname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="14dp"
+                android:text="@string/myName"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tv_myEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="email"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="8dp"
+                android:text="@string/myEmail"
+                android:textColor="@color/colorAccent"
+                android:textColorLink="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tv_mywebsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="14dp"
+                android:text="@string/myNum"
+                android:textColor="@color/colorAccent"
+                android:textColorLink="@color/colorAccent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="8dp"
+
+                android:text="Hi,I am Bhuvaneshvar,
+ Just enthusiastic about technology,
+ Love to learn new Programming Languages.
+ See my work :
+       http://www.github.com/bhuvancom"
+
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorAccent"
+                android:typeface="monospace" />
+
+
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/leaderboard_a"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="8dp"
+                android:text="@string/weblinks"
+
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

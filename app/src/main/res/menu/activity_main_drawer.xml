@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Currentuser"
+                android:icon="@drawable/ic_image_black_24dp"
+                android:title="@string/my_collection" />
+            <item
+                android:id="@+id/nav_otherUser"
+                android:title="@string/user_s_collection"
+                android:icon="@drawable/ic_menu_gallery" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="@string/about" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/share_with_friends" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/library">
+            <menu>
+            <item
+                android:id="@+id/nav_ocean"
+                android:icon="@drawable/ic_cloud_downl"
+                android:title="@string/ocean" />
+            <item
+                android:id="@+id/nav_flower"
+                android:icon="@drawable/ic_cloud_downl"
+                android:title="@string/flower" />
+            <item
+                android:id="@+id/nav_ranfom"
+                android:icon="@drawable/ic_cloud_downl"
+                android:title="@string/random" />
+
+            <item
+                android:id="@+id/nav_Landscape"
+                android:icon="@drawable/ic_cloud_downl"
+                android:title="@string/landscape" />
+            <item
+                android:id="@+id/nav_Animals"
+                android:icon="@drawable/ic_cloud_downl"
+                android:title="@string/animals" />
+            <item
+                android:id="@+id/nav_Kitten"
+                android:icon="@drawable/ic_cloud_downl"
+                android:title="@string/kitten" />
+            <item
+                android:id="@+id/nav_puppies"
+                android:icon="@drawable/ic_cloud_downl"
+                android:title="@string/puppies" />
+            <item
+                android:id="@+id/nav_birds"
+                android:icon="@drawable/ic_cloud_downl"
+                android:title="@string/birds" />
+            </menu>
+        </item>
+
+
+    </group>
+
+
+
+</menu>
